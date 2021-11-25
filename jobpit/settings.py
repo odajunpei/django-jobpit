@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'jobpit.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jobpit-db',
+        'NAME': 'jobpit',
         'USER': 'root',
-        'PASSWORD': 'password',
+        'PASSWORD': 'junpei1022',
         'HOST': 'localhost',
         'PORT': '3300'
     }
