@@ -1,0 +1,7 @@
+#error
+##mysqlにログインできない
+###mysqlにコマンド(manage.py makemigrations)でログインできない。
+###⇒コマンド(ALTER USER 'root'@'localhost' identified BY 'junpei1022';)でパスワード再設定
+##mysqlとsqliteの違い
+###mysql単体 -> databaseの中を見ることができる
+###sqlite単体 -> databaseの中を見れない。(railsを使用した時は、rails側のactive-record機能で確認ができた。)
